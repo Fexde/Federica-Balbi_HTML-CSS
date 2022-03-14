@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 0 16px;
+  background-color: #fff;
+  display: flex;
+  display: block;
+  height: auto;
+  }
+
+.page {
+  background-color: #e7f3f9;
+  padding: 20px 30px 20px 30px;
+  font-family: 'Fredoka', sans-serif;
+  margin: auto;
+  height: auto;
+}
+
+.logo{
+  display: block;
+  width: auto;
+  padding-right: 20px;
+}
+
+.logo img {
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #403241;
+  display: block;
+  margin-top: 130;
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #e9fbfb;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: auto;
+}
+
+.navbar a:active {
+  text-decoration: underline;
+  text-decoration-color: #e9fbfb;
+}
+
+.navbar a:hover {
+  font-weight: 700;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+h1 {
+  padding: 95px 20px 40px 60px;
+  position: relative;
+  left: 20px;
+  color: #403241;
+}
+
+h2 {
+  color: #403241;
+  padding-bottom: 30px;
+}
+
+h3{
+  color: #403241;
+  padding-bottom: 30px;
+}
+.container {
+  display: block;
+  text-align: space-between;
+}
+
+
+p {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 23px;
+  flex-wrap: wrap;
+}
+
+article {
+  text-indent: 1em;
+  overflow: auto;
+}
+
+article p:first-of-type{
+  text-indent: 0;
+}
+
+p:last-of-type {
+  padding-bottom: 30px;
+}
+
+.borb-img{
+  float: left;
+  margin-right: 20px;
+  text-indent: 0;
+}
+
+
+footer {
+  line-height: 3em;
+}
+
+
+.button  {
+  background-color: #403241;
+  color: #e9fbfb;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #403241;
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.button a {
+  color: #e9fbfb;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.button a:active {
+  text-decoration: underline;
+  text-decoration-color: #e9fbfb;
+}
+
+.button a:hover {
+  font-weight: 700;
+}
+
+
+
+@media only screen and (min-width:960px){
+  .page{
+    width: 900px;
+    align-content: center;
+  }
+}

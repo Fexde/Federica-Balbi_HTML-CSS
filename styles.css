@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 0 16px;
+  background-color: #fff;
+  display: flex;
+  display: block;
+  height: auto;
+  }
+
+.page {
+  background-color: #e7f3f9;
+  padding: 20px 30px 20px 30px;
+  font-family: 'Fredoka', sans-serif;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo{
+  display: block;
+  width: auto;
+  padding-right: 20px;
+}
+
+img {
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #403241;
+  display: block;
+  margin-top: 130;
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #e9fbfb;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: auto;
+}
+
+.navbar a:active{
+  text-decoration: underline;
+  text-decoration-color: #e9fbfb;
+}
+
+.navbar a:hover{
+  font-weight: 700;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+header {
+  padding: 95px 20px 40px 60px;
+}
+
+h1{
+  position: relative;
+  left: 20px;
+  color: #403241;
+}
+
+h2{
+  color: #403241;
+  padding-bottom: 30px;
+}
+
+h3{
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+  color: #403241;
+  float: left;
+  width: 100%;
+}
+
+p {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #403241;
+}
+
+p:first-of-type{
+  font-style: italic;
+}
+
+p:last-of-type {
+  padding-bottom: 30px;
+}
+
+
+.host-gallery{
+  display: block;
+  height: auto;
+  padding-bottom: 60px;
+  }
+
+.gallery {
+  display: block;
+  width: 30%;
+  float: left;
+  margin: 15px 1.15%;
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width:960px){
+  .page{
+    width: 900px;
+    align-content: center;
+  }
+}
